@@ -1,0 +1,93 @@
+table {
+    border-collapse: collapse !important;
+    width: 100% !important;
+}
+
+th, td {
+    text-align: left !important;
+    padding: 8px !important;
+    border: 1px solid #ddd !important;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2 !important;
+}
+
+.active {
+    background-color: #4CAF50 !important;
+    color: white !important;
+}
+
+.pagination {
+    display: inline-block !important;
+    margin: 10px 0 !important;
+}
+
+.pagination a {
+    color: black !important;
+    float: left !important;
+    padding: 8px 16px !important;
+    text-decoration: none !important;
+}
+
+.pagination a.active {
+    background-color: #4CAF50 !important;
+    color: white !important;
+}
+
+.pagination a:hover:not(.active) {
+background-color: #ddd !important;
+}
+
+input.form-control{
+    width: 30% !important;
+    display: inline !important;
+    padding: 0.475rem 0.75rem !important;
+    margin: 5px !important;
+}
+
+.p__buscar{
+    font-size: 20px !important;
+    display: inline !important;
+}
+
+button.btn.btn-primary{
+    padding-bottom: -5px !important;
+}
+
+a.a__anterior{
+    background: #6c757d !important;
+    padding: 5px !important;
+    border-radius: 5px !important;
+    text-decoration: none !important;
+    color: #fff !important;
+}
+
+a.a__anterior:hover{
+    background: #c2c2c2 !important;
+    padding: 5px !important;
+    border-radius: 5px !important;
+    text-decoration: none !important;
+    color: #fff !important;
+}
+
+a.a__siguiente{
+    background: #6c757d !important;
+    padding: 5px !important;
+    border-radius: 5px !important;
+    text-decoration: none !important;
+    color: #fff !important;
+}
+
+a.a__siguiente:hover{
+    background: #c2c2c2 !important;
+    padding: 5px !important;
+    border-radius: 5px !important;
+    text-decoration: none !important;
+    color: #fff !important;
+}
+
+.negritas{
+    font-weight: 500 !important;
+}
+
