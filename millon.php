@@ -12,9 +12,6 @@ try {
 } catch(PDOException $e) {
     die("Conexión fallida: " . $e->getMessage());
 }
- 
-
-
 // Desactivar los índices de la tabla temporalmente
 $conn->exec("ALTER TABLE usuarios DISABLE KEYS");
 
